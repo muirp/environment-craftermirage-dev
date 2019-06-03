@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQW7YyedwOkYXJRttrZ1b9uDANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyQ4NzQ3NDBjOC0xZGFlLTQzNjYtYTY3Yy1iNjBlNmQ5ZTNhMDcw
+    HhcNMTkwNjAzMDUxNTUxWhcNMjQwNjAxMDYxNTUxWjAvMS0wKwYDVQQDEyQ4NzQ3
+    NDBjOC0xZGFlLTQzNjYtYTY3Yy1iNjBlNmQ5ZTNhMDcwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCW/RBNxtRiqEb5OOW2R8so4kdJJzt3P53bWwUGmcdu
+    xzCchM+OaZG98M6u7v+Xk9kLX3MlvEXgPfbozrrahM0i08+7fHwWvr02HwR+WSpw
+    PSvlsmYLfWN1p5HcXdf2WxUD7qzVjZAZUU2Fp/B5dK4Ccn30/thLllZxpE/94NNP
+    1dmlaKd+mB3PxiM89VaDseMfAAkOMgJ++PC14XdAURrQVGNkddWcCPV/XjGwHWVd
+    LuolUnUGxIjlZUbXNf8w0ejCExjUu8ZKXerXV68h42pD3jnt2qkUaajS4rtjhq0c
+    3XpkQJXPD/w1OWhppqk3iYgnflS25C8Oh6qj96ZB9TQ1AgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQB3
+    e+WA1cqvNhV5KnHhaAexeEicjx9CSyNP7Etb2mz2KIQb97T6EYvnKE0u+4bE3xri
+    PD854Tgg8oWBTjMcTvPQ3F95G80FmcGIFprbeeqzJSbUGSgEiW1rsWyafGRrVeWp
+    ttR7Z+QZX8jlAlUkYuMfv2wL7SZ2ixP3bbqegz/qofebkPGIyYsbg+7oqKs4owOe
+    4chnJZf/lN8PcxoqMaj88FJdGvaUhv6T8ts4w9ykDlYvApHq/1krrOXTD90Za7DN
+    n4LLA2ARpzKvWxnpm2oQ/iXqvtec9/twbZ8jmlGV/11XjHijpncvwYb+N7zfOPjZ
+    unrw0sCBtB+wKuBkIeFR
+    -----END CERTIFICATE-----
+  clusterName: craftermirage
+  jx-install-version: 2.0.0-dev+25a888103
+  kubeProvider: gke
+  projectID: apps-dev-229310
+  region: ""
+  secretsLocation: vault
+  server: https://35.195.210.43
+  systemVaultName: jx-vault-craftermirage
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
